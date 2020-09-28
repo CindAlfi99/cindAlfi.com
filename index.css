@@ -1,0 +1,18 @@
+.btn {
+    display: inline-block;
+    width: 20%;
+    height: 30px;
+    background-color: lightgray;
+}
+
+#btnx {
+    display: inline-block;
+    width: 20%;
+    height: 30px;
+    background-color: steelblue;
+}
+
+marquee {
+    font-size: small;
+    direction: unset;
+}
