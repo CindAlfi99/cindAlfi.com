@@ -1,18 +1,49 @@
 .btn {
-    display: inline-block;
-    width: 20%;
-    height: 30px;
-    background-color: lightgray;
-}
-
-#btnx {
-    display: inline-block;
-    width: 20%;
-    height: 30px;
-    background-color: steelblue;
-}
-
-marquee {
-    font-size: small;
-    direction: unset;
-}
+        display: inline-block;
+        width: 20%;
+        height: 30px;
+        background-color: lightgray;
+        cursor: pointer;
+        box-shadow: 0 4px #e4e0e0;
+        margin-top: 5px;
+    }
+    
+    #btnx:hover {
+        opacity: 0.8;
+    }
+    
+    #btnx {
+        display: inline-block;
+        width: 20%;
+        height: 30px;
+        background-color: steelblue;
+        cursor: pointer;
+        box-shadow: 0 4px #e4e0e0;
+    }
+    
+    #btnx:active {
+        background-color: lightblue;
+        box-shadow: none;
+    }
+    
+    .btn:hover {
+        opacity: 0.8;
+    }
+    
+    .btn:active {
+        background-color: lightblue;
+        box-shadow: none;
+    }
+    
+    marquee {
+        font-size: small;
+        direction: unset;
+    }
+    
+    #br {
+        margin-left: 20px;
+    }
+    
+    .cltr {
+        text-align: center;
+    }
