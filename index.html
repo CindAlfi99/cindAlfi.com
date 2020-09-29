@@ -12,6 +12,7 @@
     <h1 style="text-align: center;">BERHITUNG <i>dengan</i> CALCULATOR</h1>
     <marquee behavior=""> <b>Follow Ig</b> <i>Cind_Alfi</b\i></marquee>
     <hr>
+    <container class="cltr">
     <form>
         <b>SILAHKAN LOGIN</b>
         <br>
@@ -28,22 +29,22 @@
         <Button id="btnx"><b>Daftar</b></Button>
 
     </form>
+</container>
     <br><br>
     <hr>
-    <container>
+    <container id="lgn">
         <br>
 
         <b>Input Angka 1:</b>
         <input type="number" id="inp1" value="">
-        <br>
-        <br>
+        
 
 
-        <b>Input Angka 2:</b>
+        <b id="br">Input Angka 2:</b>
         <input type="number" id="inp2" value="">
         <br><br>
         <button class="btn">+</button>
-        <button class="btn">-</button>
+        <button class="btn">-</button><br>
         <button class="btn">*</button>
         <button class="btn">/</button>
 
@@ -55,6 +56,24 @@
         <button class="btn">Hapus</button>
 
         </container>
+        <br><br><br>
+        <br><br><br>
+
+        <label for="text"><b>Bg-color</b></label>
+        <br>
+        <a href="#" class="bg" value="">1</a>
+        <a href="#" class="bg" value="">2</a>
+        <a href="#" class="bg" value="">3</a>
+        <a href="#" class="bg" value="">4</a>
+        <a href="#" class="bg" value="">5</a>
+        <a href="#" class="bg" value="">6</a>
+        <a href="#" class="bg" value="">7</a>
+        <a href="#" class="bg" value="">8</a>
+        <a href="#" class="bg" value="">9</a>
+        <a href="#" class="bg" value="">10</a>
+        <a href="#" class="bg" value="">11 </a> Next >>
+
+
 
 
         <script>
@@ -136,6 +155,56 @@
                 Inp2.value = " ";
                 let M = Hsl.value;
                 Hsl.value = " ";
+
+            });
+            //button bg
+            let btnLg = document.getElementsByClassName('bg');
+
+            btnLg[0].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('A.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[1].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('B.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[2].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('C.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[3].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('D.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[4].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('E.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[5].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('F.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[6].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('G.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[7].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('H.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[8].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('I.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[9].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('J.png')";
+                document.body.style.opacity = 0.7;
+            });
+            btnLg[10].addEventListener("click", () => {
+                document.body.style.backgroundImage = "url('K.png')";
+                document.body.style.color = "steelblue";
+                document.body.style.opacity = 0.7;
+
 
             });
         </script>
