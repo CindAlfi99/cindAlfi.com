@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+        <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -38,9 +39,9 @@
         <b>Input Angka 1:</b>
         <input type="number" id="inp1" value="">
         
+<br>
 
-
-        <b id="br">Input Angka 2:</b>
+        <b>Input Angka 2:</b>
         <input type="number" id="inp2" value="">
         <br><br>
         <button class="btn">+</button>
@@ -74,7 +75,19 @@
         <a href="#" class="bg" value="">11 </a> Next >>
 
 
+        <container>
+            <b>Album</b>
+            <a href="#"><img src="1.jpg" id="alb" width="30%" height="200px" style="display: block;" alt=""></a>
+            <a href="#" style="text-decoration: none;" onmouseenter="sebelum();">
+                <<</a>
+                    <a href="#" onmouseenter="Myfun(1);">1</a>
+                    <a href="#" onmouseenter="Myfun(2);">2</a>
+                    <a href="#" onmouseenter="Myfun(3);">3</a>
+                    <a href="#" onmouseenter="Myfun(4);">4</a>
+                    <a href="#" onmouseenter="Myfun(5);">5</a>
+                    <a href="#" style="text-decoration: none;" onclick="setelah(0);">>></a>
 
+        </container>
 
         <script>
             //Login
@@ -207,6 +220,19 @@
 
 
             });
+
+
+
+
+            let am = document.getElementById('alb');
+
+
+
+            function Myfun(huruf) {
+
+                am.src = huruf + '.jpg';
+                am.style.opacity = 0.6;
+            };
         </script>
 </body>
 
